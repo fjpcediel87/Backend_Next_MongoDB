@@ -1,0 +1,29 @@
+{
+  "name": "backend_next_mongodb",
+  "version": "1.0.0",
+  "description": "A tutorial for intro to Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjpcediel87/Backend_Next_MongoDB.git"
+  },
+  "author": "fjpcediel87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjpcediel87/Backend_Next_MongoDB/issues"
+  },
+  "homepage": "https://github.com/fjpcediel87/Backend_Next_MongoDB#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
